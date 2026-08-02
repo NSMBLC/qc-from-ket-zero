@@ -1,0 +1,7 @@
+[project]
+name = "qc-from-ket-zero"
+version = "0.1.0"
+description = "Quantum Computing From |0⟩"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
