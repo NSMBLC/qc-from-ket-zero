@@ -54,7 +54,7 @@ session: no new material.
 
 ## Getting started
 
-Open **`notebooks/lesson00_setup.ipynb`** and follow it to the end. It walks you through
+Open **`notebooks/00_setup.ipynb`** and follow it to the end. It walks you through
 installing the dependencies, a short Python self-test, and
 verifying that everything works. Every ✅ must print before moving on. It also has you choose
 a path:
@@ -72,7 +72,7 @@ at any time.
 
 ## Notebook index
 
-### Week 0: Setup & warm-ups
+### Setup & warm-ups
 
 The warm-ups cover the full background the *Basics of Quantum Information* course recommends
 (sets and functions, complex numbers, basic linear algebra), plus two things it quietly
@@ -81,11 +81,11 @@ dependency, each one handing off to the next.
 
 | Notebook | What it covers |
 |---|---|
-| `lesson00_setup.ipynb` | Environment install & verification; Python self-test; path choice; day-one two-act hardware run (superposition, then interference); what simulation gives you and where it differs from real hardware |
-| `warmup0a_sets_functions_bits.ipynb` | Sets, functions, Cartesian products and bit strings |
-| `warmup0b_complex_numbers.ipynb` | Arithmetic, conjugate, modulus; polar form & Euler's formula; phases and an interference preview |
-| `warmup0c_linear_algebra.ipynb` | Complex inner products & the dagger; matrices as machines & composition order; eigenvalues & spectral decomposition |
-| `warmup0d_probability.ipynb` | Distributions as vectors; expectation, marginals, conditionals; sampling, 1/√shots convergence, and a Born-rule teaser that hands off to Lesson 1 |
+| `00_setup.ipynb` | Environment install & verification; Python self-test; path choice; day-one two-act hardware run (superposition, then interference); what simulation gives you and where it differs from real hardware |
+| `0a_sets_functions_bits.ipynb` | Sets, functions, Cartesian products and bit strings |
+| `0b_complex_numbers.ipynb` | Arithmetic, conjugate, modulus; polar form & Euler's formula; phases and an interference preview |
+| `0c_linear_algebra.ipynb` | Complex inner products & the dagger; matrices as machines & composition order; eigenvalues & spectral decomposition |
+| `0d_probability.ipynb` | Distributions as vectors; expectation, marginals, conditionals; sampling, 1/√shots convergence, and a Born-rule teaser that hands off to Lesson 1 |
 
 ### Unit I: Basics of Quantum Information
 
@@ -93,39 +93,39 @@ Pairs with the [course of the same name](https://quantum.cloud.ibm.com/learning/
 
 | # | Notebook | Simulator harvest |
 |---|---|---|
-| 1 | `lesson01_single_systems.ipynb` | State validation, inner product, Born rule, the gate zoo |
-| 2 | `lesson02_multiple_systems.ipynb` | Multi-qubit states, CNOT/CZ, partial measurement |
-| 3 | `lesson03_quantum_circuits.ipynb` | The `Circuit` class: gate-on-qubit-k via Kronecker products |
-| 4 | `lesson04_entanglement_in_action.ipynb` | Teleportation, superdense coding, CHSH · 🖥️ first hardware run |
+| 1 | `01_single_systems.ipynb` | State validation, inner product, Born rule, the gate zoo |
+| 2 | `02_multiple_systems.ipynb` | Multi-qubit states, CNOT/CZ, partial measurement |
+| 3 | `03_quantum_circuits.ipynb` | The `Circuit` class: gate-on-qubit-k via Kronecker products |
+| 4 | `04_entanglement_in_action.ipynb` | Teleportation, superdense coding, CHSH · 🖥️ first hardware run |
 | 🏅 | Badge exam | [*Basics of Quantum Information* exam](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/exam) at IBM Training → IBM Credly badge |
 
 ### Unit II: Fundamentals of Quantum Algorithms
 
 | # | Notebook | Highlight |
 |---|---|---|
-| 5 | `lesson05_quantum_query_algorithms.ipynb` | Deutsch–Jozsa, Bernstein–Vazirani, Simon; phase kickback |
-| 6 | `lesson06_algorithmic_foundations.ipynb` | Reversible computation, Toffoli logic |
-| 7 | `lesson07_phase_estimation_factoring.ipynb` | QFT, phase estimation, factoring 15 end-to-end |
-| 8 | `lesson08_grovers_algorithm.ipynb` | The geometric picture, animated · 🖥️ hardware run |
+| 5 | `05_quantum_query_algorithms.ipynb` | Deutsch–Jozsa, Bernstein–Vazirani, Simon; phase kickback |
+| 6 | `06_algorithmic_foundations.ipynb` | Reversible computation, Toffoli logic |
+| 7 | `07_phase_estimation_factoring.ipynb` | QFT, phase estimation, factoring 15 end-to-end |
+| 8 | `08_grovers_algorithm.ipynb` | The geometric picture, animated · 🖥️ hardware run |
 | 🏅 | Badge exam | [*Fundamentals of Quantum Algorithms*](https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms) exam → IBM Credly badge |
 
 ### Unit III: General Formulation of Quantum Information
 
 | # | Notebook | Highlight |
 |---|---|---|
-| 9 | `lesson09_density_matrices.ipynb` | Partial trace; half a Bell state is pure noise |
-| 10 | `lesson10_quantum_channels.ipynb` | Kraus operators; the simulator learns to be noisy |
-| 11 | `lesson11_general_measurements.ipynb` | POVMs; distinguishing non-orthogonal states |
-| 12 | `lesson12_purifications_fidelity.ipynb` | Schmidt = SVD; scoring real hardware with fidelity · 🖥️ |
+| 9 | `09_density_matrices.ipynb` | Partial trace; half a Bell state is pure noise |
+| 10 | `10_quantum_channels.ipynb` | Kraus operators; the simulator learns to be noisy |
+| 11 | `11_general_measurements.ipynb` | POVMs; distinguishing non-orthogonal states |
+| 12 | `12_purifications_fidelity.ipynb` | Schmidt = SVD; scoring real hardware with fidelity · 🖥️ |
 
 ### Unit IV: Foundations of Quantum Error Correction
 
 | # | Notebook | Highlight |
 |---|---|---|
-| 13 | `lesson13_correcting_quantum_errors.ipynb` | Repetition & Shor codes; watching correction actually help |
-| 14 | `lesson14_stabilizer_formalism.ipynb` | Pauli algebra; syndromes from stabilizers |
-| 15 | `lesson15_code_constructions.ipynb` | CSS codes; a toric-code visualizer |
-| 16 | `lesson16_fault_tolerance.ipynb` | The threshold theorem; capstone teach-back |
+| 13 | `13_correcting_quantum_errors.ipynb` | Repetition & Shor codes; watching correction actually help |
+| 14 | `14_stabilizer_formalism.ipynb` | Pauli algebra; syndromes from stabilizers |
+| 15 | `15_code_constructions.ipynb` | CSS codes; a toric-code visualizer |
+| 16 | `16_fault_tolerance.ipynb` | The threshold theorem; capstone teach-back |
 
 ## Attribution & license
 
