@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Quantum Computing From |0⟩"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "qiskit>=2.5",
+    "qiskit-aer",
+    "qiskit-ibm-runtime",
+    "matplotlib",
+    "pylatexenc",
+]
