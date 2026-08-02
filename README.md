@@ -55,8 +55,9 @@ session: no new material.
 ## Getting started
 
 Open **`notebooks/lesson00_setup.ipynb`** and follow it to the end. It walks you through
-installing the dependencies, a short Python self-test, and verifying that everything works.
-Every ✅ must print before moving on. It also has you choose a path:
+installing the dependencies, a short Python self-test, and
+verifying that everything works. Every ✅ must print before moving on. It also has you choose
+a path:
 
 - **Path A: Real hardware + simulation (recommended).** Free
   [IBM Quantum](https://quantum.cloud.ibm.com) account, credentials saved once, and a day-one
@@ -74,16 +75,17 @@ at any time.
 ### Week 0: Setup & warm-ups
 
 The warm-ups cover the full background the *Basics of Quantum Information* course recommends
-(complex numbers, basic linear algebra, sets and functions), plus two things it quietly
-assumes: probability and bit-string indexing.
+(sets and functions, complex numbers, basic linear algebra), plus two things it quietly
+assumes: probability and bit-string indexing. They are ordered by difficulty and by
+dependency, each one handing off to the next.
 
 | Notebook | What it covers |
 |---|---|
 | `lesson00_setup.ipynb` | Environment install & verification; Python self-test; path choice; day-one two-act hardware run (superposition, then interference); what simulation gives you and where it differs from real hardware |
-| `warmup0a_complex_numbers.ipynb` | Arithmetic, conjugate, modulus; polar form & Euler's formula; phases and an interference preview |
-| `warmup0b_linear_algebra.ipynb` | Complex inner products & the dagger; matrices as machines & composition order; eigenvalues & spectral decomposition |
-| `warmup0c_probability.ipynb` | Distributions as vectors; expectation, marginals, conditionals; sampling and 1/√shots convergence |
-| `warmup0d_sets_functions_bits.ipynb` | Sets, functions, Cartesian products; bit strings and vector indexing; the Qiskit qubit-ordering warning |
+| `warmup0a_sets_functions_bits.ipynb` | Sets, functions, Cartesian products and bit strings |
+| `warmup0b_complex_numbers.ipynb` | Arithmetic, conjugate, modulus; polar form & Euler's formula; phases and an interference preview |
+| `warmup0c_linear_algebra.ipynb` | Complex inner products & the dagger; matrices as machines & composition order; eigenvalues & spectral decomposition |
+| `warmup0d_probability.ipynb` | Distributions as vectors; expectation, marginals, conditionals; sampling, 1/√shots convergence, and a Born-rule teaser that hands off to Lesson 1 |
 
 ### Unit I: Basics of Quantum Information
 
