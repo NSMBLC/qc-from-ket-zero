@@ -5,7 +5,7 @@
 Companion notebooks for IBM Quantum's
 [*Understanding Quantum Information and Computation*](https://quantum.cloud.ibm.com/learning)
 series by John Watrous (also available as a [free text](https://arxiv.org/abs/2507.11536) and
-[videos](https://www.youtube.com/@qiskit)). Each course lesson has a matching notebook whose
+[videos](https://www.youtube.com/@qiskit)). Each course lab has a matching notebook whose
 headings mirror the course pages one to one: you read a course section, close the tab, rebuild
 what you just learned **from memory, from scratch, in NumPy**, and verify it against Qiskit.
 The notebooks teach nothing on their own and repeat nothing from the course; they are where
@@ -13,8 +13,8 @@ what you read becomes something you own. Along the way, Units I and II prepare y
 IBM badge exams for their courses.
 
 **The running project:** in parallel, the notebooks incrementally build a complete quantum
-simulator using plain NumPy. Each lesson's verified from-memory functions are promoted into a
-small, permanent library that later lessons import and extend. Lesson by lesson it learns to
+simulator using plain NumPy. Each lab's verified from-memory functions are promoted into a
+small, permanent library that later labs import and extend. Lab by lab it learns to
 hold a qubit, run circuits, execute the famous algorithms, simulate noise, and correct errors.
 By the end, it covers essentially everything the course taught, in a few hundred lines of code
 you understand completely, because you wrote every one of them.
@@ -32,24 +32,24 @@ you understand completely, because you wrote every one of them.
 4. **Confusion is data.** The moment something confuses you is the moment you have found the
    edge of your understanding, and it is likely where the next insight lives. In the confusion
    log, capture what puzzled you and how it clicked. This reinforces your learning.
-5. **Teach while learning.** Each lesson ends with a teach-back and an exercise you design
+5. **Teach while learning.** Each lab ends with a teach-back and an exercise you design
    yourself. Explaining a concept in your own words is the strongest test of whether you
    understand it, and the finished notebooks become course material anyone can learn from.
 
 ## The method, in one loop
 
 Work in two windows: the course in one, the matching notebook in the other.
-For each section of a lesson:
+For each section of a lab:
 
 1. 📖 Read/watch the matching course section, **20–30 min max**, then close the tab
 2. ✍️ Notes in your own words + "the one sentence I'd use to teach this"
 3. 🔨 **Build from memory** in NumPy
 4. ✅ **Verify** against Qiskit and the course's own worked examples
 5. 🧩 Log confusions · write one exercise of your own design
-6. 🌾 Promote the keeper functions into the growing simulator library, so later lessons build on them
+6. 🌾 Promote the keeper functions into the growing simulator library, so later labs build on them
 
-Each lesson closes with a from-memory gauntlet and a teach-back. Before each new lesson,
-reproduce one result from the previous lesson from memory. Once a week, hold a consolidation
+Each lab closes with a from-memory gauntlet and a teach-back. Before each new lab,
+reproduce one result from the previous lab from memory. Once a week, hold a consolidation
 session: no new material.
 
 ## Getting started
@@ -57,7 +57,7 @@ session: no new material.
 **Before you start:** this course assumes you can already write basic Python (functions,
 loops, NumPy arrays) and are comfortable working in a Jupyter notebook (running cells,
 restarting the kernel). The study method is building from memory, so an unfamiliar language
-or interface would turn every lesson into two struggles at once instead of one. If any of
+or interface would turn every lab into two struggles at once instead of one. If any of
 these are new to you, the official [Python tutorial](https://docs.python.org/3/tutorial/),
 the [NumPy quickstart](https://numpy.org/doc/stable/user/quickstart.html), and the
 [Jupyter documentation](https://docs.jupyter.org/en/latest/) are free and excellent places to
@@ -69,13 +69,13 @@ moving on. It also has you choose a path:
 
 - **Path A: Real hardware + simulation (recommended).** Free
   [IBM Quantum](https://quantum.cloud.ibm.com) account, credentials saved once, and a day-one
-  run on a real quantum computer. Lessons 4, 8, and 12 include hardware runs.
+  run on a real quantum computer. Labs 4, 8, and 12 include hardware runs.
 - **Path B: Simulation only.** Everything runs locally on your own machine, using Qiskit's
   simulators. This path covers the full course content and is ready the moment the packages
-  are installed. Lesson 0 explains what simulation gives you and where it differs from real
+  are installed. Lab 0 explains what simulation gives you and where it differs from real
   hardware.
 
-Hardware setup is deferrable: nothing before Lesson 4 requires it, and you can switch paths
+Hardware setup is deferrable: nothing before Lab 4 requires it, and you can switch paths
 at any time.
 
 ## Notebook index
@@ -93,7 +93,7 @@ dependency, each one handing off to the next.
 | `0a_sets_functions_bits.ipynb` | Sets, functions, Cartesian products and bit strings |
 | `0b_complex_numbers.ipynb` | Arithmetic, conjugate, modulus; polar form & Euler's formula; phases and an interference preview |
 | `0c_linear_algebra.ipynb` | Complex inner products & the dagger; matrices as machines & composition order; eigenvalues & spectral decomposition |
-| `0d_probability.ipynb` | Distributions as vectors; expectation, marginals, conditionals; sampling, 1/√shots convergence, and a Born-rule teaser that hands off to Lesson 1 |
+| `0d_probability.ipynb` | Distributions as vectors; expectation, marginals, conditionals; sampling, 1/√shots convergence, and a Born-rule teaser that hands off to Lab 1 |
 
 ### Unit I: Basics of Quantum Information
 
@@ -137,7 +137,7 @@ Pairs with the [course of the same name](https://quantum.cloud.ibm.com/learning/
 
 ## Attribution & license
 
-Lesson structure and topics follow *Understanding Quantum Information and Computation* by
+Lab structure and topics follow *Understanding Quantum Information and Computation* by
 John Watrous ([arXiv:2507.11536](https://arxiv.org/abs/2507.11536)), created with IBM and
 released under a Creative Commons license for free use and adaptation by educators.
 All notebooks, code, and exercises in this repository are original companion material,
