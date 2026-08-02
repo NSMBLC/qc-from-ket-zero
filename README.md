@@ -54,10 +54,18 @@ session: no new material.
 
 ## Getting started
 
+**Before you start:** this course assumes you can already write basic Python (functions,
+loops, NumPy arrays) and are comfortable working in a Jupyter notebook (running cells,
+restarting the kernel). The study method is building from memory, so an unfamiliar language
+or interface would turn every lesson into two struggles at once instead of one. If any of
+these are new to you, the official [Python tutorial](https://docs.python.org/3/tutorial/),
+the [NumPy quickstart](https://numpy.org/doc/stable/user/quickstart.html), and the
+[Jupyter documentation](https://docs.jupyter.org/en/latest/) are free and excellent places to
+build that fluency first.
+
 Open **`notebooks/00_setup.ipynb`** and follow it to the end. It walks you through
-installing the dependencies, a short Python self-test, and
-verifying that everything works. Every ✅ must print before moving on. It also has you choose
-a path:
+installing the dependencies and verifying that everything works. Every ✅ must print before
+moving on. It also has you choose a path:
 
 - **Path A: Real hardware + simulation (recommended).** Free
   [IBM Quantum](https://quantum.cloud.ibm.com) account, credentials saved once, and a day-one
@@ -81,7 +89,7 @@ dependency, each one handing off to the next.
 
 | Notebook | What it covers |
 |---|---|
-| `00_setup.ipynb` | Environment install & verification; Python self-test; path choice; day-one two-act hardware run (superposition, then interference); what simulation gives you and where it differs from real hardware |
+| `00_setup.ipynb` | Environment install & verification; path choice; day-one two-act hardware run (superposition, then interference); what simulation gives you and where it differs from real hardware |
 | `0a_sets_functions_bits.ipynb` | Sets, functions, Cartesian products and bit strings |
 | `0b_complex_numbers.ipynb` | Arithmetic, conjugate, modulus; polar form & Euler's formula; phases and an interference preview |
 | `0c_linear_algebra.ipynb` | Complex inner products & the dagger; matrices as machines & composition order; eigenvalues & spectral decomposition |
